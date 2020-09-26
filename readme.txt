@@ -25,6 +25,7 @@ Create: http://localhost:8080/studentlist/studentform/
 Delete: http://localhost:8080/studentlist/delete/{id}
 
 Note: This application uses In-memory database (H2) , so if you would like to use Mysql DB please use attached sql script.
+And amend Datasource properties in application.properties as per your database details.
 
 Thanks
 
