@@ -1,0 +1,104 @@
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+.alert {
+	color: green;
+	background-color: 1px solid green;
+}
+
+#addBtn, #backBtn, #saveBtn, #updateBtn {
+	margin-right: 40px;
+	padding: 0.6em 2em;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #1976d2;
+	font-size: 1.1em;
+	border: 0;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+#students {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#students td, #students thead {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#students tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#students tr:hover {
+	background-color: #ddd;
+}
+
+#students thead {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+}
+
+fieldset {
+	border-radius: 10px;
+}
+
+legend {
+	background-color: lightgray;
+	padding: 6px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+body {
+	background-color: #FBFCFC;
+}
+
+#heading {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.heading {
+	background-color: aquamarine;
+	width: 100%;
+	padding: 10px;
+	margin-top: -8px;
+	margin-right: -15px;
+	margin-bottom: 3px;
+	margin-left: -10px;
+	
+}
+#student{
+	margin-left: 100px;
+	border-collapse: collapse;
+}
+#buttons{
+	padding-left: 70px;
+}
+
+label { color: black; font-weight: bold; float: right;padding-right: 3px } 
+
+input[type="text"]{
+    padding: 10px;
+    width: 400px;
+    margin: 8px;
+    font-size: 15px
+}
+.error,.mandatory{
+	color: #ff0000;
+	font-style: italic;
+}
